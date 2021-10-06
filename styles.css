@@ -1,6 +1,7 @@
 * {
    font-family: 'Fira Sans', sans-serif;
    scroll-behavior: smooth;
+   text-shadow: 2px 2px 4px #000000f1;
 }
 
 body {
@@ -13,7 +14,7 @@ ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    margin: 0 20px 0 0;
     padding: 0;
     gap: 10px;
 }
@@ -27,9 +28,30 @@ a {
     color: white;
 }
 
+a:hover {
+    color: rgba(255, 255, 255, 0.9);
+}
+
 h2 {
     font-size: 25px;
     font-weight: bold;
+}
+
+h3 {
+    margin: 10px;
+}
+
+button {
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.4);
+    text-shadow: none;
+}
+
+button:active {
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.7);
 }
 
 .container-1 h1 {
@@ -61,11 +83,11 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #6730EC;
+    background-color: #1D2D50;
     margin: 0;
     padding: 5px 10px 5px 10px;
     min-height: 50px;
-    border-bottom: 3px dotted white;
+    border-bottom: 1px solid white;
 }
 
 .about-img {
@@ -81,9 +103,9 @@ h2 {
     min-height: 300px;
     justify-content: space-around;
     align-items: center;
-    background-color: #6730EC;
+    background-color: #1D2D50;
     flex-wrap: wrap;
-    border-bottom: 3px dotted white;
+    border-bottom: 1px solid white;
 }
 
 .about-container {
@@ -93,8 +115,8 @@ h2 {
 
 .container-2 {
     text-align: center;
-    background-color: #A9D2FF;
-    border-top: 3px dotted white;
+    background-color: #133B5C;
+    color: white;
 }
 
 .cards {
@@ -117,8 +139,10 @@ h2 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #6730EC;
+    background-color: #1E5F74;
     padding: 0 70px 16px 70px;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 .container-3 h2 {
@@ -133,4 +157,41 @@ h2 {
 .container-3 p{
     color: white;
     margin: 0 0 16px 0;
+}
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FCDAB7;
+}
+
+.sign-up-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.sign-up-text>p {
+    margin: 2px 10px 5px 5px;
+    color: white;
+}
+
+.sign-up-box {
+    background-color: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #1E5F74;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.container-5 {
+    text-align: center;
+    padding: 0;
+    background-color: #1D2D50;
+    color: white;
+    border-top: 1px solid white;
 }
