@@ -63,6 +63,8 @@ p {
     height: 250px;
     width: auto;
     margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
 
 .about {
@@ -71,4 +73,27 @@ p {
     justify-content: space-around;
     align-items: center;
     background-color: #6730EC;
+    flex-wrap: wrap;
+    border-bottom: 3px dotted white;
+}
+
+.container-2 {
+    text-align: center;
+    background-color: #A9D2FF;
+    border-top: 3px dotted white;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 0 20px 20px 20px;
+}
+
+.card-img {
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
 }
